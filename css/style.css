@@ -8,3 +8,42 @@
     background-color: #f11075;
 }
 
+.titulo{
+    color: white;
+}
+ .texto{
+    color: white;
+ }
+
+.formulario{
+    background-color: white;
+    color: black;
+}
+
+
+button{
+    border-radius: 10px;
+    background-color: #f11075;
+    border: none;
+    width: 180px;
+    height: 40px;
+    color: white;
+}
+
+.botão{
+    text-align: center;
+}
+
+footer{
+    background-color: white;
+}
+
+.icones{
+    display: flex;
+    flex-direction:; 
+    justify-content: space-between;
+    max-height: 56px;
+    height: 15%;
+    background-color: white;
+    padding-top: 8px;
+}

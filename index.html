@@ -1,36 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">   
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Viagens de ônibus mais baratas que a passagem da rodoviária</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png"
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="image/favicon-32x32.png"
+    />
+  </head>
+  <body>
+    <div>
+      <img
+        src="https://www.livelo.com.br/file/general/config_BSR_logo-buser-cep.png"
+        alt=""
+        width="160"
+      />
+    </div>
     <div class="cabecalho">
-        <img  >
+      <a ref="http://www.buser.com.br/" target="_blank">Entrar</a>
     </div>
     <div class="conteudo">
-            <div class="titulo">VIAGENS DE ÔNIBUS MAIS BARATAS QUE A PASSAGEM DA RODOVIARIA
-            <div class="formulario">
-            <form>
-
-            </form>
-            <button>
-
-            </button>
-
+      <div class="titulo">
+        <h1>VIAGENS DE ÔNIBUS MAIS BARATAS QUE A PASSAGEM DA RODOVIARIA</h1>
+        <div class="texto">
+          <p>Sem taxas, com segurança e preço justo</p>
         </div>
-        <div class="bus" #>
+      </div>
 
+      <div class="formulario">
+        <form>
+          <div>
+            <label class="alinha" for="saindode">Saindo de</label>
+            <input
+              type="text"
+              required
+              placeholder="São José dos Campos - SP"
+            />
+          </div>
+          <div>
+            <label class="alinha" for="Indo para">Indo para</label>
+            <input type="text" required placeholder="São Paulo - SP" />
+          </div>
+          <div>
+            <label class="alinha" for="Data de ida">Data de Ida</label>
+            <input type="text" required placeholder="Ida" />
+          </div>
+          <div>
+            <label class="alinha" for="Data de volta">Data de Volta</label>
+            <input type="text" required placeholder="Volta" />
+          </div>
+        </form>
+        <div class="botao">
+          <button>Buscar</button>
+        </div>
+      </div>
     </div>
+
     <div class="footer">
-        <footer>
-
-        </footer>
+      <footer>
+        <div class="icones">
+          <img src="/image/ico-bottom/find.svg" alt="" />
+        </div>
+        <div class="icones">
+          <img src="/image/ico-bottom/bus.svg" alt="" />
+        </div>
+        <div class="icones">
+          <img src="/image/ico-bottom/wallet.svg" alt="" />
+        </div>
+        <div class="icones">
+          <img src="/image/ico-bottom/badge.svg" alt="" />
+        </div>
+        <div class="icones">
+          <img src="/image/ico-bottom/help.svg" alt="" />
+        </div>
+      </footer>
     </div>
-    
-</body>
+  </body>
 </html>
