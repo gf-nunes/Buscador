@@ -1,69 +1,73 @@
-html, * {
+html,
+* {
   margin: 0;
   padding: 0;
   text-decoration: 0;
 }
 
 body {
-    height: 100%;
-    text-align: center;
-    box-sizing: border-box;
-    font-family: Roboto,sans-serif;
-    font-weight: 400;
-    line-height: normal;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #f11075;
+  background-image:url(/image/banner-mobile.png);
+  background-repeat:round;
 }
 
-.cabecalho{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: 30px;
-    margin: 10px 30px 10px 10px;
+.cabecalho {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 45px;
+  margin: 0px;
 }
 
 a {
-    color: #f11075;
-}
-
-.conteudo {
-   background-color: #f11075;
+  color: #f11075;
 }
 
 .titulo {
-    color: white;
-    font-size: 16px;
-    box-sizing: border-box;
-    font-family: Roboto,sans-serif;
-    font-weight: 400;
-    line-height: normal;
-    text-align: left;
+  color: white;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  padding: 20px;
 }
 
 .texto {
-    color: white;
-    box-sizing: border-box;
-    font-family: Roboto,sans-serif;
-    font-size: 14px;
-    font-weight: 400; 
-    line-height: normal;
-    text-align: left;
+  color: white;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
 }
 
 .formulario {
   background-color: white;
   color: black;
-  margin: 40px 20px 20px 40px;
+  margin: 20px;
   border-radius: 10px;
-  width: 250px;
-  height: 200px;
-  border: 20px;
+  height: 250px;
+  padding: 20px;
 }
 
-input{
-    border-radius: 5px;
-    width: 200px;
-    height: 20px;
+label .alinha {
+  height: 250px;
+  text-align: left;
+}
+
+input {
+  border-radius: 5px;
+  width: 200px;
+  height: 20px;
 }
 
 button {
@@ -76,8 +80,8 @@ button {
 }
 
 .botão {
-    text-align: center;
-    width: 1000px;
+  text-align: center;
+  width: 1000px;
 }
 
 footer {
@@ -101,7 +105,9 @@ footer {
 .rodape footer {
   display: flex;
   justify-content: space-between;
-  margin: 10px;
+  align-items: center;
+  margin: 0px;
+  height: 45px;
 }
 
 .rodape {
