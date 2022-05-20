@@ -12,7 +12,20 @@ body {
     font-weight: 400;
     line-height: normal;
 }
-  
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    margin: 10px 30px 10px 10px;
+}
+
+a {
+    color: #f11075;
+}
+
 .conteudo {
    background-color: #f11075;
 }
