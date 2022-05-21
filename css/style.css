@@ -12,8 +12,6 @@ body {
   font-weight: 400;
   line-height: normal;
   background-color: #f11075;
-  background-repeat:space;
-  background-size: cover;
 }
 
 .cabecalho {
@@ -56,10 +54,6 @@ a {
   margin: 20px;
   border-radius: 10px;
   padding: 20px;
-}
-
-span{
-  position: relative;
 }
 
 label.alinha {
@@ -110,8 +104,13 @@ footer {
     padding-top: 8px;
 } */
 
+.bus{
+  display: flex;
+  justify-content: center;
+}
+
 .bus img{
-  max-height:125px;
+  max-height:120px;
 }
 
 .icones img {
